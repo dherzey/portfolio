@@ -1,0 +1,88 @@
+* {
+
+	font-family: Roboto;
+}
+
+#heading {
+	color: #5CE1E6;
+	margin: auto;
+	width: 100%;
+	padding: 300px 100px 300px 100px;
+}
+
+#about {
+	padding: 240px 100px 240px 100px;
+}
+
+#skills {
+	padding: 150px 100px 150px 100px;
+}
+
+#projects {
+	padding: 100px 100px 100px 100px;
+}
+
+#contact {
+	padding: 100px 100px 100px 100px;
+}
+
+#footer {
+	float: right;
+	padding: 20px 0 20px 0;
+}
+
+.logo {
+	color: white;
+	margin: 0 15px 0 15px;
+}
+
+.project {
+	position: relative;
+	width: 50%;
+	display: none;
+}
+
+.project:hover .desc {
+	opacity: 0.7;
+}
+
+.img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.desc {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #5CE1E6;
+}
+
+.text {
+	color: black;
+	font-size: 16px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;	
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.show {
+	display: block;
+}
