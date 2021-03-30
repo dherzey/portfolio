@@ -51,13 +51,19 @@ footer{padding-top: 30px;}
 	opacity: 0.5;
 }
 
+.list-title {
+	color: white;
+	text-align: center;
+	background-color: #ec96a4;
+}
+
 .list-item {
 	padding-top: 10px;
 	font-size: 12px;
 }
 
 .list-group-item:hover {
-	opacity:0.8;
+	opacity:0.9;
 }
 
 .list-group-item-heading {
